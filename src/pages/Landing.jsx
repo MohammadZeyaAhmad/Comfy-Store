@@ -1,10 +1,15 @@
 import React from 'react'
 
-function Landing() {
-  console.log("landing page")
-  return (
-    <div>Landing</div>
-  )
-}
+import { Hero } from '../components';
 
-export default Landing
+
+
+const Landing = () => {
+  return (
+    <>
+      <Hero />
+      
+    </>
+  );
+};
+export default Landing;
