@@ -1,4 +1,4 @@
-import { formatPrice } from '../utils';
+import { formatPrice } from '../utils/index';
 import { useState } from 'react';
 const FormRange = ({ label, name, size }) => {
   const step = 1000;

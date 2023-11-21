@@ -1,5 +1,5 @@
 import { useLoaderData } from 'react-router-dom';
-import { formatPrice, customFetch } from '../utils';
+import { formatPrice, customFetch } from '../utils/index';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';

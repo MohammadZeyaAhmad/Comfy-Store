@@ -1,5 +1,5 @@
 import { Filters, PaginationContainer, ProductsContainer } from '../components';
-import { customFetch } from '../utils';
+import { customFetch } from '../utils/index';
 
 const url = '/products';
 export const loader = async ({ request }) => {

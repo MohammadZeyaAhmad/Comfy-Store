@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Hero,FeaturedProducts } from '../components';
-import { customFetch } from '../utils' ;
+import { customFetch } from '../utils/index' ;
 const url = '/products?featured=true';
 
 export const loader = async () => {
