@@ -3,7 +3,7 @@ import axios from "axios";
 // const productionUrl = "https://strapi-store-server.onrender.com/api";
 
 export const customFetch = axios.create({
-  baseURL: `${import.meta.env.VITE_SECRET}`,
+  baseURL: `${process.env.VITE_SECRET}`,
 });
 
 export const formatPrice = (price) => {
