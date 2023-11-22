@@ -7,7 +7,6 @@ export default {
   plugins: [
     require("@tailwindcss/typography"),
     require("daisyui"),
-    require("tw-elements/dist/plugin"),
   ],
   daisyui: {
     themes: ["winter", "dracula"],
